@@ -6,6 +6,6 @@ services:
     container_name: auth-app
     command: ./.docker/start.sh
     ports:
-      - 8080:5173
+      - 5173:5173
     volumes:
       - .:/home/node/app

@@ -2,16 +2,15 @@
 
 - Auth login system
 
+## Requirements
+
+- Docker
+- Docker-compose
+
 ## Installation
 
 ```bash
-$ npm install
-```
-
-## Run application
-
-```bash
-$ npm run dev
+$ docker-compose up -d
 ```
 
 ## Links
